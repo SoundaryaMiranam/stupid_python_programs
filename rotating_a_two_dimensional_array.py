@@ -1,13 +1,13 @@
 ##matrix clockwise rotation:
 mat = [[1,2,3],[4,5,6],[7,8,9]]
 clock_rotated_mat = list(zip(*mat[::-1]))
-clock_rotated_mat
+print(clock_rotated_mat)
 
 ##matrix anti-clockwise rotation:
 
 mat = [[1,2,3],[4,5,6],[7,8,9]]
 anti_clock_rotated_mat = (list(zip(*mat))[::-1])
-anti_clock_rotated_mat
+print(anti_clock_rotated_mat)
 
 #Explaination:
 #1. [::-1] - reverse the matrix
